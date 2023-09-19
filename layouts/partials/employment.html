@@ -10,7 +10,7 @@
       </span>
     </header>
     {{ range .Site.Data.employment.description }}
-    <p>{{ .description }}</p>
+    <p>{{ .Site.Data.employment.description }}</p>
     {{ end }}
   </article>
   {{ end }}
