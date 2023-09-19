@@ -9,8 +9,8 @@
         <time>{{ .time }}</time>
       </span>
     </header>
-    {{ range .Site.Data.employment.description }}
-    <p>{{ .Site.Data.employment.description }}</p>
+    {{ range .description }}
+    <p>{{ .description }}</p>
     {{ end }}
   </article>
   {{ end }}
